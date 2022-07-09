@@ -1,0 +1,42 @@
+.hero-content {
+  background: linear-gradient(to bottom, #091523, #0e253f);
+  margin-top: -144px;
+  padding: 0px 30px;
+}
+
+.hero-content-body {
+  text-align: right;
+  position: relative;
+}
+
+.hero-left-side {
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  text-align: left;
+  width: 500px;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .device-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .hero-left-side {
+    width: 100%;
+  }
+  .hero-right-side {
+    height: 650px;
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,23 @@
+.eyebrow-bottom-content {
+  background-image: url("/images/Phone.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.eyebrow-bottom-content-body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 520px;
+}
+
+@media only screen and (max-width: 550px) {
+  .eyebrow-bottom-content-body {
+    width: 100%;
+  }
+}

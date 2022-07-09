@@ -1,0 +1,48 @@
+.eyebrow-top-content {
+  padding: 100px 30px;
+  margin-top: -100px;
+  background: white;
+  position: relative;
+}
+
+.eyebrow-top-content-body {
+  display: flex;
+}
+
+.eyebrow-top-right-side {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.eyebrow-top-left-side {
+  width: 50%;
+}
+
+.eyebrow-top-right-side-text {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .eyebrow-top-left-side {
+    width: 100%;
+  }
+  .eyebrow-top-right-side {
+    width: 100%;
+  }
+  .eyebrow-top-content-body {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .device-movile-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .eyebrow-top-right-side-text {
+    width: 100%;
+  }
+}
